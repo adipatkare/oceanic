@@ -1,0 +1,16 @@
+body{
+	--e-global-color-primary					: #104B5A;
+	--e-global-color-secondary					: #F1F7FA;
+	--e-global-color-text						: #527179;
+	--e-global-color-accent						: #1F7EC1;
+	--e-global-color-accentsecondary			: transparent;
+	--e-global-color-white						: #FFFFFF;
+	--e-global-color-black						: #000000;
+	--e-global-color-divider					: #104B5A1A;
+	--e-global-color-darkdivider				: #FFFFFF1A;
+	--e-global-color-background             	: #FFFFFF;
+	--e-global-typography-primary-font-family	: "Bricolage Grotesque", sans-serif;
+	--e-global-typography-secondary-font-family	: "Bricolage Grotesque", sans-serif;
+	--e-global-typography-text-font-family		: "Manrope", sans-serif;
+	--e-global-typography-accent-font-family    : "Bricolage Grotesque", sans-serif;
+}

@@ -1,0 +1,929 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<!-- Mirrored from demo.awaikenthemes.com/carvox/projects/real-time-cargo-visibility-and-control-platform/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Jan 2026 09:54:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Real-Time Cargo Visibility and Control Platform &#8211; Carvox</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel="alternate" type="application/rss+xml" title="Carvox &raquo; Feed" href="../../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Carvox &raquo; Comments Feed" href="../../comments/feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Carvox &raquo; Real-Time Cargo Visibility and Control Platform Comments Feed" href="feed/index.html" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="../../wp-json/oembed/1.0/embed8cc4.json?url=https%3A%2F%2Fdemo.awaikenthemes.com%2Fcarvox%2Fprojects%2Freal-time-cargo-visibility-and-control-platform%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embed1206?url=https%3A%2F%2Fdemo.awaikenthemes.com%2Fcarvox%2Fprojects%2Freal-time-cargo-visibility-and-control-platform%2F&amp;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='elementor-frontend-css' href='../../wp-content/uploads/elementor/css/custom-frontend.minadfa.css?ver=1767588754' media='all' />
+<link rel='stylesheet' id='elementor-post-4829-css' href='../../wp-content/uploads/elementor/css/post-4829adfa.css?ver=1767588754' media='all' />
+<link rel='stylesheet' id='elementor-post-4831-css' href='../../wp-content/uploads/elementor/css/post-4831adfa.css?ver=1767588754' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-term-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-term-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='../../wp-content/plugins/contact-form-7/includes/css/styles1b46.css?ver=6.1.4' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='../../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.mine085.css?ver=5.44.0' media='all' />
+<link rel='stylesheet' id='elementor-post-9-css' href='../../wp-content/uploads/elementor/css/post-9adfa.css?ver=1767588754' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='../../wp-content/plugins/elementor/assets/css/widget-heading.min37de.css?ver=3.33.4' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInUp-css' href='../../wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min37de.css?ver=3.33.4' media='all' />
+<link rel='stylesheet' id='widget-icon-list-css' href='../../wp-content/uploads/elementor/css/custom-widget-icon-list.minadfa.css?ver=1767588754' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='../../wp-content/plugins/elementor/assets/css/widget-image.min37de.css?ver=3.33.4' media='all' />
+<link rel='stylesheet' id='elementor-post-7464-css' href='../../wp-content/uploads/elementor/css/post-7464b40b.css?ver=1767634719' media='all' />
+<link rel='stylesheet' id='ekit-widget-styles-css' href='../../wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-stylesac9e.css?ver=3.7.7' media='all' />
+<link rel='stylesheet' id='ekit-widget-styles-pro-css' href='../../wp-content/plugins/elementskit/widgets/init/assets/css/widget-styles-pro8aee.css?ver=4.1.2' media='all' />
+<link rel='stylesheet' id='ekit-responsive-css' href='../../wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsiveac9e.css?ver=3.7.7' media='all' />
+<link rel='stylesheet' id='carvox-font-css' href='https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&amp;family=Manrope:wght@200..800&amp;display=swap' media='all' />
+<link rel='stylesheet' id='carvox-css-variable-css' href='../../wp-content/themes/carvox/assets/css/css-variablef269.css?ver=1.0.1' media='all' />
+<link rel='stylesheet' id='fontawesome-6.4.0-css' href='../../wp-content/themes/carvox/assets/css/all.minf269.css?ver=1.0.1' media='all' />
+<link rel='stylesheet' id='bootstrap-5.3.2-css' href='../../wp-content/themes/carvox/assets/css/bootstrap.minf269.css?ver=1.0.1' media='all' />
+<link rel='stylesheet' id='carvox-style-css' href='../../wp-content/themes/carvox/stylef269.css?ver=1.0.1' media='all' />
+<link rel='stylesheet' id='elementor-gf-bricolagegrotesque-css' href='https://fonts.googleapis.com/css?family=Bricolage+Grotesque:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&amp;display=swap' media='all' />
+<link rel='stylesheet' id='elementor-gf-manrope-css' href='https://fonts.googleapis.com/css?family=Manrope:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&amp;display=swap' media='all' />
+<link rel='stylesheet' id='elementor-icons-ekiticons-css' href='../../wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticonsac9e.css?ver=3.7.7' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min52d5.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min52d5.css?ver=5.15.3' media='all' />
+<script src="../../wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="../../wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="../../wp-json/index.html" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
+
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='../../index0412.html?p=7464' />
+<meta name="generator" content="Elementor 3.33.4; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<script type="text/javascript">var elementskit_module_parallax_url = "../../wp-content/plugins/elementskit/modules/parallax/index.html";</script>			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="../../wp-content/uploads/2025/11/favicon.png" sizes="32x32" />
+<link rel="icon" href="../../wp-content/uploads/2025/11/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="../../wp-content/uploads/2025/11/favicon.png" />
+<meta name="msapplication-TileImage" content="https://demo.awaikenthemes.com/carvox/wp-content/uploads/2025/11/favicon.png" />
+</head>
+
+<body class="wp-singular awaiken-project-template awaiken-project-template-elementor_header_footer single single-awaiken-project postid-7464 wp-custom-logo wp-theme-carvox tt-magic-cursor fancy-scrollbar elementor-default elementor-template-full-width elementor-kit-9 elementor-page elementor-page-7464">
+
+		<div class="theme-preloader">
+		<div class="loading-container">
+			<div class="loading"></div>
+			<div id="loading-icon"><img src="../../wp-content/themes/carvox/assets/images/loader.svg" alt="Preloader"></div>
+		</div>
+	</div>
+		<div id="magic-cursor">
+		<div id="ball"></div>
+	</div>
+	
+			<a class="skip-link screen-reader-text" href="#content">
+			Skip to content		</a>
+	
+	
+	<div class="ekit-template-content-markup ekit-template-content-header ekit-template-content-theme-support">
+		<style>.elementor-4829 .elementor-element.elementor-element-2f321b4{--display:flex;--position:absolute;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--align-items:center;--padding-top:0px;--padding-bottom:0px;--padding-left:20px;--padding-right:20px;top:auto;--z-index:100;overflow:visible;}body:not(.rtl) .elementor-4829 .elementor-element.elementor-element-2f321b4{left:0px;}body.rtl .elementor-4829 .elementor-element.elementor-element-2f321b4{right:0px;}.elementor-4829 .elementor-element.elementor-element-6926751{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--flex-wrap:wrap;border-style:solid;--border-style:solid;border-width:0px 0px 1px 0px;--border-top-width:0px;--border-right-width:0px;--border-bottom-width:1px;--border-left-width:0px;border-color:var( --e-global-color-darkdivider );--border-color:var( --e-global-color-darkdivider );--padding-top:20px;--padding-bottom:20px;--padding-left:10px;--padding-right:10px;overflow:visible;}.elementor-4829 .elementor-element.elementor-element-80205ed{--display:flex;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );overflow:visible;}.elementor-widget-carvox-site-logo .ata-site-logo-container .ata-site-logo-img{border-color:var( --e-global-color-primary );}.elementor-widget-carvox-site-logo .widget-image-caption{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );line-height:var( --e-global-typography-text-line-height );}.elementor-4829 .elementor-element.elementor-element-496fdcb .ata-site-logo-container, .elementor-4829 .elementor-element.elementor-element-496fdcb .ata-caption-width figcaption{text-align:left;}.elementor-4829 .elementor-element.elementor-element-496fdcb .ata-site-logo .ata-site-logo-container img{width:100%;}.elementor-4829 .elementor-element.elementor-element-496fdcb .ata-site-logo img{max-width:175px;}.elementor-4829 .elementor-element.elementor-element-496fdcb .widget-image-caption{margin-top:0px;margin-bottom:0px;}.elementor-4829 .elementor-element.elementor-element-496fdcb .ata-site-logo-container .ata-site-logo-img{border-style:none;}.elementor-4829 .elementor-element.elementor-element-62af373{--display:flex;overflow:visible;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li > a{background-color:#FFFFFF00;font-size:16px;font-weight:600;line-height:1.2em;letter-spacing:0px;padding:6px 20px 6px 20px;color:var( --e-global-color-white );}
+					.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li > a:hover,
+					.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li > a:focus,
+					.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li > a:active,
+					.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li:hover > a{background-color:#FFFFFF00;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li.current-menu-item > a{background-color:#FFFFFF00;color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel{background-color:var( --e-global-color-accent );border-style:none;border-radius:10px 10px 10px 10px;min-width:235px;box-shadow:0px 0px 0px 0px rgba(0, 0, 0, 0);}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-menu-hamburger{background-color:var( --e-global-color-accent );float:right;border-style:none;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-menu-hamburger:hover{background-color:var( --e-global-color-white );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-menu-close{background-color:var( --e-global-color-white );font-size:20px;font-weight:600;line-height:1.2em;letter-spacing:0px;border-style:none;color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-menu-close:hover{background-color:var( --e-global-color-primary );border-style:none;color:var( --e-global-color-white );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-menu-container{height:44px;border-radius:0px 0px 0px 0px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a{font-size:16px;font-weight:600;line-height:1.2em;letter-spacing:0px;color:var( --e-global-color-white );padding:12px 10px 12px 10px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a:hover{color:var( --e-global-color-accent );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a:focus{color:var( --e-global-color-accent );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a:active{color:var( --e-global-color-accent );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li:hover > a{color:var( --e-global-color-accent );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li:hover > a .elementskit-submenu-indicator{color:var( --e-global-color-accent );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a:hover .elementskit-submenu-indicator{color:var( --e-global-color-accent );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a:focus .elementskit-submenu-indicator{color:var( --e-global-color-accent );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a:active .elementskit-submenu-indicator{color:var( --e-global-color-accent );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li.current-menu-item > a{color:var( --e-global-color-accent );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li.current-menu-ancestor > a{color:var( --e-global-color-accent );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li.current-menu-ancestor > a .elementskit-submenu-indicator{color:var( --e-global-color-accent );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li{margin:0px 10px 0px 10px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a .elementskit-submenu-indicator{font-size:12px;color:var( --e-global-color-white );fill:var( --e-global-color-white );padding:2px 0px 0px 8px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a .ekit-submenu-indicator-icon{font-size:12px;color:var( --e-global-color-white );fill:var( --e-global-color-white );padding:2px 0px 0px 8px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav-default .elementskit-dropdown-has>a .elementskit-submenu-indicator{margin:0px 0px 0px 0px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav-default .elementskit-dropdown-has>a .ekit-submenu-indicator-icon{margin:0px 0px 0px 0px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li > a:hover{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li > a:focus{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li > a:active{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li:hover > a{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-submenu-panel{padding:5px 0px 5px 0px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-menu-hamburger .elementskit-menu-hamburger-icon{background-color:var( --e-global-color-white );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-menu-hamburger > .ekit-menu-icon{color:var( --e-global-color-white );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-menu-hamburger:hover .elementskit-menu-hamburger-icon{background-color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-menu-hamburger:hover > .ekit-menu-icon{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-6b1b873{--display:flex;overflow:visible;}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit-btn-wraper{text-align:right;}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_creative_button{padding:16px 24px 16px 24px;font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-size:var( --e-global-typography-accent-font-size );font-weight:var( --e-global-typography-accent-font-weight );line-height:var( --e-global-typography-accent-line-height );border-radius:6px 6px 6px 6px;}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_creative_button:not(.ekit_tamaya) > .ekit_creative_button_text{color:var( --e-global-color-white );}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_creative_button.ekit_tamaya::before{color:var( --e-global-color-white );background-color:var( --e-global-color-accent );}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_creative_button.ekit_tamaya::after{color:var( --e-global-color-white );background-color:var( --e-global-color-accent );}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_creative_button > i{color:var( --e-global-color-white );padding:0px 0px 0px 0px;}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_slide_in_line::after{background-color:var( --e-global-color-white );}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_creative_button svg path{stroke:var( --e-global-color-white );fill:var( --e-global-color-white );}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_creative_button:not(.ekit_tamaya){background-color:var( --e-global-color-accent );}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_distorted_btn .ekit_button__bg{background-color:var( --e-global-color-accent );}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_creative_button:hover > .ekit_creative_button_text{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_creative_button:hover > i{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_creative_button:hover svg path{stroke:var( --e-global-color-primary );fill:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_position_aware_bg{background-color:var( --e-global-color-white );}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_creative_button > :is(i, svg){font-size:18px;}@media(max-width:1440px){.elementor-widget-carvox-site-logo .widget-image-caption{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li{margin:0px 5px 0px 5px;}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_creative_button{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );}}@media(max-width:1024px){.elementor-4829 .elementor-element.elementor-element-2f321b4{--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-4829 .elementor-element.elementor-element-6926751{--padding-top:10px;--padding-bottom:10px;--padding-left:10px;--padding-right:10px;}.elementor-widget-carvox-site-logo .widget-image-caption{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-menu-container{background-color:var( --e-global-color-accent );max-width:100%;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-nav-identity-panel{padding:20px 20px 20px 20px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a{line-height:1.35em;color:var( --e-global-color-white );padding:7px 20px 7px 20px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a:hover{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a:focus{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a:active{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li:hover > a{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li:hover > a .elementskit-submenu-indicator{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a:hover .elementskit-submenu-indicator{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a:focus .elementskit-submenu-indicator{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a:active .elementskit-submenu-indicator{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li.current-menu-item > a{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li.current-menu-ancestor > a{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li.current-menu-ancestor > a .elementskit-submenu-indicator{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li{margin:0px 0px 0px 0px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a .elementskit-submenu-indicator{font-size:10px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a .ekit-submenu-indicator-icon{font-size:10px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li > a{line-height:1.35em;padding:7px 20px 7px 10px;color:var( --e-global-color-white );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li > a:hover{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li > a:focus{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li > a:active{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li:hover > a{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li.current-menu-item > a{color:var( --e-global-color-primary );}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-submenu-panel{padding:0px 0px 0px 0px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel{border-radius:0px 0px 0px 0px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-menu-hamburger{float:right;padding:8px 8px 8px 8px;width:38px;border-radius:6px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-menu-hamburger > .ekit-menu-icon{font-size:22px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-menu-close{font-size:22px;line-height:1em;padding:8px 8px 8px 8px;margin:0px 0px 0px 0px;width:38px;border-radius:6px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-nav-logo > img{max-width:160px;max-height:60px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-nav-logo{margin:5px 0px 5px 0px;padding:5px 5px 5px 5px;}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_creative_button{padding:14px 15px 14px 18px;font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );}}@media(max-width:767px){.elementor-4829 .elementor-element.elementor-element-80205ed{--width:80%;}.elementor-widget-carvox-site-logo .widget-image-caption{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4829 .elementor-element.elementor-element-62af373{--width:20%;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav > li > a{font-size:16px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-navbar-nav .elementskit-submenu-panel > li > a{font-size:16px;}.elementor-4829 .elementor-element.elementor-element-8736a42 .elementskit-nav-logo > img{max-width:120px;max-height:50px;}.elementor-4829 .elementor-element.elementor-element-406da5d .ekit_creative_button{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );}}@media(min-width:768px){.elementor-4829 .elementor-element.elementor-element-2f321b4{--content-width:1880px;}.elementor-4829 .elementor-element.elementor-element-80205ed{--width:20%;}.elementor-4829 .elementor-element.elementor-element-62af373{--width:60%;}.elementor-4829 .elementor-element.elementor-element-6b1b873{--width:20%;}}@media(max-width:1024px) and (min-width:768px){.elementor-4829 .elementor-element.elementor-element-2f321b4{--content-width:100%;}.elementor-4829 .elementor-element.elementor-element-80205ed{--width:80%;}.elementor-4829 .elementor-element.elementor-element-62af373{--width:20%;}.elementor-4829 .elementor-element.elementor-element-6b1b873{--width:100%;}}</style>		<div data-elementor-type="wp-post" data-elementor-id="4829" class="elementor elementor-4829">
+				<div class="elementor-element elementor-element-2f321b4 header-version-1 e-flex e-con-boxed e-con e-parent" data-id="2f321b4" data-element_type="container" data-settings="{&quot;position&quot;:&quot;absolute&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-6926751 e-flex e-con-boxed e-con e-child" data-id="6926751" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-80205ed e-con-full e-flex e-con e-child" data-id="80205ed" data-element_type="container">
+				<div class="elementor-element elementor-element-496fdcb elementor-widget elementor-widget-carvox-site-logo" data-id="496fdcb" data-element_type="widget" data-settings="{&quot;align&quot;:&quot;left&quot;,&quot;width&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:100,&quot;sizes&quot;:[]},&quot;space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:175,&quot;sizes&quot;:[]},&quot;space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_tablet&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;max_height&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;max_height_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;max_height_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;max_height_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;caption_space_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;caption_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;caption_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="carvox-site-logo.default">
+				<div class="elementor-widget-container">
+							<div class="ata-site-logo">
+													<a data-elementor-open-lightbox=""  class='elementor-clickable' href="https://demo.awaikenthemes.com/carvox">
+							<div class="ata-site-logo-set">           
+				<div class="ata-site-logo-container">
+									<img class="ata-site-logo-img elementor-animation-"  src="../../wp-content/uploads/2025/11/logo.svg" alt="default-logo"/>
+				</div>
+			</div>
+							</a>
+						</div>  
+							</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-62af373 e-con-full e-flex e-con e-child" data-id="62af373" data-element_type="container">
+				<div class="elementor-element elementor-element-8736a42 main-header-menu elementor-widget elementor-widget-ekit-nav-menu" data-id="8736a42" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="ekit-nav-menu.default">
+				<div class="elementor-widget-container">
+							<nav class="ekit-wid-con ekit_menu_responsive_tablet" 
+			data-hamburger-icon="icon icon-menu-11" 
+			data-hamburger-icon-type="icon" 
+			data-responsive-breakpoint="1024">
+			            <button class="elementskit-menu-hamburger elementskit-menu-toggler"  type="button" aria-label="hamburger-icon">
+                <i aria-hidden="true" class="ekit-menu-icon icon icon-menu-11"></i>            </button>
+            <div id="ekit-megamenu-header-menu" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover"><ul id="menu-header-menu" class="elementskit-navbar-nav elementskit-menu-po-center submenu-click-on-icon"><li id="menu-item-4852" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4852 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Home<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li id="menu-item-4846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4846 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../index.html" class=" dropdown-item">Home Vesrion &#8211; 1</a>	<li id="menu-item-4856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4856 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../home-version-2/index.html" class=" dropdown-item">Home Version – 2</a>	<li id="menu-item-4855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4855 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../home-version-3/index.html" class=" dropdown-item">Home Version – 3</a></ul>
+</li>
+<li id="menu-item-4848" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4848 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../about-us/index.html" class="ekit-menu-nav-link">About Us</a></li>
+<li id="menu-item-9737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9737 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../services/index.html" class="ekit-menu-nav-link">Services</a></li>
+<li id="menu-item-4847" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-4847 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../blog/index.html" class="ekit-menu-nav-link">Blog</a></li>
+<li id="menu-item-4857" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4857 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Pages<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li id="menu-item-7563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7563 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../services/road-transportation/index.html" class=" dropdown-item">Service Details</a>	<li id="menu-item-4858" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4858 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../air-freight-vs-sea-freight-which-is-right-for-you/index.html" class=" dropdown-item">Blog Details</a>	<li id="menu-item-7531" class="menu-item menu-item-type-post_type_archive menu-item-object-awaiken-project menu-item-7531 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../index.html" class=" dropdown-item">Projects</a>	<li id="menu-item-11554" class="menu-item menu-item-type-post_type menu-item-object-awaiken-project menu-item-11554 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../last-mile-delivery-network-expansion-project/index.html" class=" dropdown-item">Project Details</a>	<li id="menu-item-7560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7560 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../our-team/index.html" class=" dropdown-item">Our Team</a>	<li id="menu-item-7564" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7564 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../our-team/john-anderson/index.html" class=" dropdown-item">Team Details</a>	<li id="menu-item-7561" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7561 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../pricing-plan/index.html" class=" dropdown-item">Pricing Plan</a>	<li id="menu-item-7565" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7565 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../testimonials/index.html" class=" dropdown-item">Testimonials</a>	<li id="menu-item-7559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7559 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../image-gallery/index.html" class=" dropdown-item">Image Gallery</a>	<li id="menu-item-7566" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7566 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../video-gallery/index.html" class=" dropdown-item">Video Gallery</a>	<li id="menu-item-11337" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11337 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../faqs/index.html" class=" dropdown-item">FAQs</a>	<li id="menu-item-7582" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7582 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../404.html" class=" dropdown-item">404</a>	<li id="menu-item-9402" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9402 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class=" dropdown-item">Header Layouts<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+	<ul class="elementskit-dropdown elementskit-submenu-panel">
+		<li id="menu-item-9403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9403 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="../../index4d6a.html?elementskit_template=header" class=" dropdown-item">Header Layout &#8211; 1</a>		<li id="menu-item-9404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9404 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="../../indexaaf9.html?elementskit_template=header-layout-2" class=" dropdown-item">Header Layout &#8211; 2</a>		<li id="menu-item-9408" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9408 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="../../indexf36f.html?elementskit_template=header-layout-3" class=" dropdown-item">Header Layout &#8211; 3</a>		<li id="menu-item-9410" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9410 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="../../indexc95d.html?elementskit_template=header-layout-4" class=" dropdown-item">Header Layout &#8211; 4</a>	</ul>
+	<li id="menu-item-9875" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9875 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class=" dropdown-item">Footer Layouts<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+	<ul class="elementskit-dropdown elementskit-submenu-panel">
+		<li id="menu-item-9876" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9876 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="../../indexa958.html?elementskit_template=footer" class=" dropdown-item">Footer Layout – 1</a>		<li id="menu-item-9877" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9877 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="../../indexee5a.html?elementskit_template=footer-home-2" class=" dropdown-item">Footer Layout – 2</a>		<li id="menu-item-9878" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9878 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="../../index575b.html?elementskit_template=footer-home-3" class=" dropdown-item">Footer Layout – 3</a>		<li id="menu-item-9879" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9879 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a target="_blank" href="../../index9442.html?elementskit_template=footer-layout-4" class=" dropdown-item">Footer Layout – 4</a>	</ul>
+</ul>
+</li>
+<li id="menu-item-7558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7558 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../contact-us/index.html" class="ekit-menu-nav-link">Contact Us</a></li>
+</ul><div class="elementskit-nav-identity-panel"><button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button></div></div>			
+			<div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay"></div>        </nav>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-6b1b873 e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child" data-id="6b1b873" data-element_type="container">
+				<div class="elementor-element elementor-element-406da5d elementor-widget elementor-widget-elementskit-creative-button" data-id="406da5d" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-creative-button.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con" >		<div class="ekit-btn-wraper">
+								<a href="../../contact-us/index.html" class="ekit_creative_button ekit_position_aware" id="" data-text="">
+
+						
+						<span class="ekit_creative_button_text">Get A Quote</span>
+
+													<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.2222 7.24925C12.326 7.24925 10.5978 5.58183 10.5978 3.75075V3H9.04222V3.75075C9.04222 5.08258 9.64733 6.33183 10.597 7.24925H1V8.75075H10.597C9.64733 9.66817 9.04222 10.9174 9.04222 12.2492V13H10.5978V12.2492C10.5978 10.4182 12.326 8.75075 14.2222 8.75075H15V7.24925H14.2222Z"></path></svg>
+												<span class='ekit_position_aware_bg'></span>					</a>
+						</div>
+        </div>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+			</div>
+
+			<div data-elementor-type="wp-post" data-elementor-id="7464" class="elementor elementor-7464">
+				<div class="elementor-element elementor-element-f3d1516 e-flex e-con-boxed e-con e-parent" data-id="f3d1516" data-element_type="container">
+					<div class="e-con-inner">
+		<div data-ekitparallax="{&quot;ekit_section_parallax_bg&quot;:&quot;yes&quot;,&quot;ekit_section_parallax_bg_speed&quot;:0.5,&quot;elementor_lazy_load&quot;:&quot;1&quot;}" class="elementor-element elementor-element-f795e52 e-flex e-con-boxed e-con e-child" data-id="f795e52" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-9734452 e-con-full e-flex e-con e-child" data-id="9734452" data-element_type="container">
+				<div class="elementor-element elementor-element-cf647b5 at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="cf647b5" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">REAL-TIME CARGO VISIBILITY AND CONTROL PLATFORM</h1>				</div>
+				<div class="elementor-element elementor-element-a7989df elementor-invisible elementor-widget elementor-widget-carvox-breadcrumb" data-id="a7989df" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="carvox-breadcrumb.default">
+				<div class="elementor-widget-container">
+					<div role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs"><ol class="trail-items"><li class="trail-item trail-begin"><a href="../../index.html" rel="home"><span>Home</span></a></li><li class="trail-item"><a href="../index.html"><span>Projects</span></a></li><li class="trail-item trail-end"><span><span>Real-Time Cargo Visibility and Control Platform</span></span></li></ol></div>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-651adb4 e-flex e-con-boxed e-con e-parent" data-id="651adb4" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-4ee0f89 e-con-full e-flex e-con e-child" data-id="4ee0f89" data-element_type="container">
+		<div class="elementor-element elementor-element-23fd621 e-con-full sticky-column e-flex e-con e-child" data-id="23fd621" data-element_type="container">
+		<div class="elementor-element elementor-element-cb3ded4 e-con-full e-flex elementor-invisible e-con e-child" data-id="cb3ded4" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+				<div class="elementor-element elementor-element-d52b907 at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading" data-id="d52b907" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+					<h3 class="elementor-heading-title elementor-size-default">Project Highlights</h3>				</div>
+				<div class="elementor-element elementor-element-3c9f684 project-detail-list elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3c9f684" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="icon-list.default">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text"><span>Project Type:</span> Supply Chain Optimization</span>
+									</li>
+								<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text"><span>Duration:</span> January 2024 - June 2025</span>
+									</li>
+								<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text"><span>Location:</span> North America &amp; Europe</span>
+									</li>
+								<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text"><span>Project Manager:</span> Darlene Robertson</span>
+									</li>
+						</ul>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-f0706a3 e-con-full e-flex elementor-invisible e-con e-child" data-id="f0706a3" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
+				<div class="elementor-element elementor-element-9d9f1aa elementor-widget elementor-widget-carvox-elementor-template" data-id="9d9f1aa" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="carvox-elementor-template.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-template">
+					<div data-elementor-type="section" data-elementor-id="7197" class="elementor elementor-7197">
+				<div class="elementor-element elementor-element-424df8e e-flex e-con-boxed e-con e-parent" data-id="424df8e" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-a5ee24d e-con-full e-flex e-con e-child" data-id="a5ee24d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-88f8094 at-image-animation at-animation-image-none at-none elementor-widget elementor-widget-image" data-id="88f8094" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
+															<img decoding="async" width="175" height="50" src="../../wp-content/uploads/2025/11/logo.svg" class="attachment-full size-full wp-image-27" alt="" />															</div>
+				<div class="elementor-element elementor-element-951fb77 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="951fb77" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
+					<div class="ekit-wid-con" >        <!-- link opening -->
+                <!-- end link opening -->
+
+        <div class="elementskit-infobox text-left text- icon-lef-right-aligin elementor-animation-   ">
+                        <div class="box-body">
+                            <h3 class="elementskit-info-box-title">
+                    We&#039;re Here to Support Your Shipping Needs                </h3>
+                        		  	<p>We're committed to making your experience smooth, efficient, and hassle-free.</p>
+                                </div>
+        
+        
+                </div>
+        </div>				</div>
+				<div class="elementor-element elementor-element-3be0f24 elementor-align-left elementor-widget elementor-widget-button" data-id="3be0f24" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="tel:+985258263">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">+985-258-263</span>
+					</span>
+					</a>
+								</div>
+				<div class="elementor-element elementor-element-74fc91b elementor-view-stacked elementor-absolute elementor-shape-circle elementor-widget elementor-widget-icon" data-id="74fc91b" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="icon.default">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="currentColor"><path d="M14.5899 9.45117C14.5899 8.91175 14.3772 8.39347 13.9991 8.00879V8.00781L8.58504 2.59375C8.19538 2.21294 7.6719 2 7.12703 2C6.58202 2 6.05872 2.21373 5.66903 2.59473L5.66805 2.59375L4.42781 3.86426C4.42365 3.86851 4.41936 3.87277 4.41512 3.87695C3.08825 5.18627 2.25274 6.91268 2.04891 8.76562C1.84557 10.6147 2.28306 12.4776 3.28914 14.042C9.12712 22.6431 16.5536 30.0505 25.169 35.8672C26.7355 36.8778 28.6022 37.318 30.4552 37.1143C32.3081 36.9104 34.0345 36.0749 35.3438 34.748C35.348 34.7439 35.3523 34.7395 35.3565 34.7354L36.6261 33.4941C37.0069 33.1045 37.2208 32.5811 37.2208 32.0361C37.2207 31.4912 37.007 30.9678 36.6261 30.5781H36.6251L31.1807 25.1904V25.1895C30.7963 24.8131 30.2793 24.6025 29.7413 24.6025C29.2019 24.6026 28.6836 24.8143 28.2989 25.1924L28.2979 25.1943C27.5346 25.9407 26.509 26.3584 25.4415 26.3584C24.3739 26.3584 23.3485 25.9407 22.585 25.1943L14.0059 16.6152V16.6143C13.6282 16.2406 13.3274 15.796 13.1222 15.3057C12.9161 14.8132 12.8097 14.2847 12.8097 13.751C12.8097 13.2169 12.916 12.688 13.1222 12.1953C13.3263 11.7077 13.6243 11.265 13.9991 10.8926C14.3771 10.508 14.5898 9.99047 14.5899 9.45117ZM16.5899 9.45117C16.5898 10.5148 16.1715 11.5363 15.4259 12.2949C15.4223 12.2985 15.4187 12.3021 15.4151 12.3057C15.2235 12.4945 15.0707 12.7198 14.9669 12.9678C14.8631 13.2158 14.8097 13.4822 14.8097 13.751C14.8097 14.0198 14.8631 14.2863 14.9669 14.5342C15.0448 14.7202 15.1499 14.8933 15.2784 15.0479L15.4151 15.1953L15.42 15.2012L23.9835 23.7646L24.1358 23.8994C24.5045 24.1953 24.9648 24.3584 25.4415 24.3584C25.9857 24.3584 26.5081 24.1456 26.8975 23.7656L27.043 23.6299C27.7842 22.9698 28.7441 22.6026 29.7413 22.6025C30.8051 22.6025 31.8264 23.0202 32.585 23.7656L32.588 23.7686L38.045 29.168L38.0567 29.1807C38.8026 29.944 39.2207 30.9688 39.2208 32.0361C39.2208 33.1036 38.8029 34.1292 38.0567 34.8926C38.0515 34.8979 38.0455 34.903 38.0401 34.9082L36.755 36.166C35.1244 37.8125 32.9776 38.8491 30.6739 39.1025C28.3643 39.3566 26.0376 38.8075 24.085 37.5479C24.0793 37.5441 24.0732 37.5409 24.0675 37.5371C15.2303 31.574 7.61395 23.977 1.62801 15.1553C1.62368 15.1489 1.6195 15.1422 1.61532 15.1357C0.355684 13.1832 -0.193382 10.8565 0.0606276 8.54688C0.314697 6.23719 1.35685 4.08518 3.01082 2.45312L4.25496 1.17969L4.27059 1.16406C5.03399 0.417702 6.05942 0 7.12703 0C8.12792 3.49955e-06 9.09143 0.367419 9.837 1.02832L9.98348 1.16406L15.4259 6.60645C16.1716 7.36521 16.5899 8.3874 16.5899 9.45117Z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</div>
+						</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-f151ad3 e-con-full e-flex e-con e-child" data-id="f151ad3" data-element_type="container">
+		<div class="elementor-element elementor-element-bdab11a e-con-full e-flex e-con e-child" data-id="bdab11a" data-element_type="container">
+				<div class="elementor-element elementor-element-8d7d318 at-shiny-glass-effect page-single-image at-image-animation at-animation-image-style-1 elementor-widget elementor-widget-image" data-id="8d7d318" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
+															<img fetchpriority="high" decoding="async" width="1200" height="800" src="../../wp-content/uploads/2025/11/project-3.jpg" class="attachment-full size-full wp-image-7438" alt="" srcset="https://demo.awaikenthemes.com/carvox/wp-content/uploads/2025/11/project-3.jpg 1200w, https://demo.awaikenthemes.com/carvox/wp-content/uploads/2025/11/project-3-300x200.jpg 300w, https://demo.awaikenthemes.com/carvox/wp-content/uploads/2025/11/project-3-1024x683.jpg 1024w, https://demo.awaikenthemes.com/carvox/wp-content/uploads/2025/11/project-3-768x512.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" />															</div>
+				<div class="elementor-element elementor-element-b8aaff1 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="b8aaff1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+									<p>The Last-Mile Delivery Network Expansion Project was designed to strengthen our delivery capabilities and bring faster, more efficient logistics solutions to customers across key urban and rural regions. By establishing new distribution hubs, optimizing delivery routes, and integrating advanced GPS tracking systems, we enhanced delivery speed, accuracy, and customer satisfaction.</p>								</div>
+				</div>
+		<div class="elementor-element elementor-element-30fab20 e-con-full e-flex e-con e-child" data-id="30fab20" data-element_type="container">
+		<div class="elementor-element elementor-element-761e31f e-con-full e-flex e-con e-child" data-id="761e31f" data-element_type="container">
+				<div class="elementor-element elementor-element-78be9e7 at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="78be9e7" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">Project overview</h2>				</div>
+				<div class="elementor-element elementor-element-57eb8eb elementor-invisible elementor-widget elementor-widget-text-editor" data-id="57eb8eb" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+									<p>The Last-Mile Delivery Network Expansion Project was initiated to enhance delivery efficiency, reduce transit times, and improve customer experience across our logistics operations.</p>								</div>
+				<div class="elementor-element elementor-element-1b0cf26 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-id="1b0cf26" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="icon-list.default">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Added 25+ new regional and local delivery hubs.</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Implemented AI-based tracking and smart route</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Introduced electric vehicles to reduce carbon.</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Reduced average delivery time by 35%.</span>
+									</li>
+						</ul>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-6626bc5 e-con-full e-flex e-con e-child" data-id="6626bc5" data-element_type="container">
+				<div class="elementor-element elementor-element-2118d8b at-shiny-glass-effect project-overview-image image-height at-image-animation at-animation-image-style-1 elementor-widget elementor-widget-image" data-id="2118d8b" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
+															<img decoding="async" width="480" height="355" src="../../wp-content/uploads/2025/11/project-overview-image.jpg" class="attachment-full size-full wp-image-6404" alt="" srcset="https://demo.awaikenthemes.com/carvox/wp-content/uploads/2025/11/project-overview-image.jpg 480w, https://demo.awaikenthemes.com/carvox/wp-content/uploads/2025/11/project-overview-image-300x222.jpg 300w" sizes="(max-width: 480px) 100vw, 480px" />															</div>
+				</div>
+		<div class="elementor-element elementor-element-580d0c3 e-con-full e-flex e-con e-child" data-id="580d0c3" data-element_type="container">
+		<div class="elementor-element elementor-element-4f986c6 e-con-full e-flex elementor-invisible e-con e-child" data-id="4f986c6" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
+				<div class="elementor-element elementor-element-c81ecbb project-benefit-item elementor-widget-mobile__width-inherit ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box" data-id="c81ecbb" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
+					<div class="ekit-wid-con" >        <!-- link opening -->
+                <!-- end link opening -->
+
+        <div class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
+                    <div class="elementskit-box-header elementor-animation-">
+                <div class="elementskit-info-box-icon  text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="39" height="36" viewBox="0 0 39 36" fill="currentColor"><path d="M22.8574 23.6064C22.8574 17.7089 18.0763 12.9278 12.1787 12.9277C6.2811 12.9277 1.5 17.7088 1.5 23.6064C1.50008 29.504 6.28114 34.2852 12.1787 34.2852C18.0762 34.2851 22.8573 29.5039 22.8574 23.6064ZM24.3574 23.6064C24.3573 30.3324 18.9046 35.7851 12.1787 35.7852C5.45272 35.7852 7.52484e-05 30.3324 0 23.6064C0 16.8804 5.45267 11.4277 12.1787 11.4277C18.9047 11.4278 24.3574 16.8805 24.3574 23.6064Z"></path><path d="M37.1431 23.6064C37.1431 17.7089 32.3619 12.9278 26.4644 12.9277C20.5667 12.9277 15.7856 17.7088 15.7856 23.6064C15.7857 29.504 20.5668 34.2852 26.4644 34.2852C32.3619 34.2851 37.143 29.5039 37.1431 23.6064ZM38.6431 23.6064C38.643 30.3324 33.1903 35.7851 26.4644 35.7852C19.7384 35.7852 14.2857 30.3324 14.2856 23.6064C14.2856 16.8804 19.7383 11.4277 26.4644 11.4277C33.1903 11.4278 38.6431 16.8805 38.6431 23.6064Z"></path><path d="M30.0002 12.1787C30.0002 6.28114 25.2191 1.50008 19.3215 1.5C13.4239 1.5 8.64282 6.2811 8.64282 12.1787C8.6429 18.0763 13.424 22.8574 19.3215 22.8574C25.219 22.8573 30.0002 18.0762 30.0002 12.1787ZM31.5002 12.1787C31.5002 18.9046 26.0475 24.3573 19.3215 24.3574C12.5955 24.3574 7.1429 18.9047 7.14282 12.1787C7.14282 5.45267 12.5955 0 19.3215 0C26.0475 7.52506e-05 31.5002 5.45272 31.5002 12.1787Z"></path></svg>
+                </div>
+          </div>
+                        <div class="box-body">
+                            <h3 class="elementskit-info-box-title">
+                    Lack of Real-Time Tracking                </h3>
+                                            </div>
+        
+        
+                </div>
+        </div>				</div>
+				</div>
+		<div class="elementor-element elementor-element-639d51c e-con-full e-flex elementor-invisible e-con e-child" data-id="639d51c" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
+				<div class="elementor-element elementor-element-4b3e1bc project-benefit-item elementor-widget-mobile__width-inherit ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box" data-id="4b3e1bc" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
+					<div class="ekit-wid-con" >        <!-- link opening -->
+                <!-- end link opening -->
+
+        <div class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
+                    <div class="elementskit-box-header elementor-animation-">
+                <div class="elementskit-info-box-icon  text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="39" height="33" viewBox="0 0 39 33" fill="currentColor"><path d="M29.7501 0.0292969C30.3474 0.0456972 30.9327 0.20297 31.4582 0.487305C31.9791 0.769263 32.4265 1.16899 32.7658 1.6543H32.7667L37.966 8.85449L37.9708 8.86035L38.1398 9.12207C38.5089 9.74814 38.6894 10.4706 38.6554 11.2012C38.6166 12.0357 38.2998 12.8336 37.756 13.4678L37.7531 13.4707L22.1535 31.4424C21.8201 31.862 21.3977 32.2026 20.9162 32.4385C20.4225 32.6801 19.8801 32.8056 19.3302 32.8057C18.7803 32.8057 18.2371 32.6802 17.7433 32.4385C17.2615 32.2025 16.8395 31.8614 16.506 31.4414L0.906396 13.4707L0.903466 13.4678C0.359633 12.8336 0.0429621 12.0356 0.00405234 11.2012C-0.0347551 10.3667 0.206047 9.54234 0.688623 8.86035L0.693505 8.85449L5.8937 1.6543C6.23294 1.16898 6.68048 0.769265 7.20132 0.487305C7.72671 0.202968 8.31216 0.0456977 8.90933 0.0292969H29.7501ZM8.81558 1.53711C8.50086 1.56425 8.19481 1.65587 7.91616 1.80664C7.5978 1.97893 7.32358 2.22302 7.11733 2.52051C7.11468 2.52434 7.11225 2.52845 7.10952 2.53223L1.90933 9.73242C1.62247 10.1404 1.47897 10.6325 1.5021 11.1309C1.52532 11.6301 1.71479 12.1074 2.03921 12.4873L17.6388 30.459C17.6478 30.4694 17.6568 30.4804 17.6652 30.4912C17.8622 30.745 18.115 30.9505 18.4035 31.0918H18.4025C18.6911 31.2331 19.009 31.3057 19.3302 31.3057C19.6515 31.3056 19.9685 31.233 20.257 31.0918C20.5453 30.9506 20.7974 30.7449 20.9943 30.4912L21.0207 30.459L36.6203 12.4873C36.9448 12.1073 37.1342 11.6301 37.1574 11.1309L37.1583 10.9434C37.1423 10.5101 37.001 10.0892 36.7501 9.73242L31.55 2.53223C31.5473 2.52848 31.5448 2.5243 31.5421 2.52051C31.336 2.22315 31.0624 1.97888 30.7443 1.80664C30.4658 1.65593 30.1594 1.56434 29.8449 1.53711L29.7091 1.5293H8.95034L8.81558 1.53711Z"></path><path d="M17.2159 0.342778C17.4406 -0.00510982 17.9051 -0.104454 18.253 0.120122C18.6011 0.344761 18.7013 0.809222 18.4767 1.15723L11.7179 11.625L20.0255 31.6914C20.1839 32.0741 20.0019 32.5134 19.6193 32.6719C19.2365 32.8303 18.7972 32.6483 18.6388 32.2656L10.1818 11.8369C10.0876 11.6095 10.1118 11.3504 10.2452 11.1436L17.2159 0.342778Z"></path><path d="M20.4981 0.119073C20.8466 -0.104816 21.3103 -0.00372761 21.5343 0.344659L28.4776 11.1445C28.6107 11.3517 28.6339 11.6115 28.5392 11.8388L20.0245 32.2675C19.8651 32.6495 19.4262 32.8299 19.044 32.6708C18.6618 32.5115 18.4806 32.0726 18.6397 31.6904L27.0021 11.624L20.2726 1.15521C20.0488 0.806807 20.1498 0.34301 20.4981 0.119073Z"></path><path d="M37.8447 10.8008L37.9219 10.8047C38.2999 10.8432 38.5947 11.1625 38.5947 11.5508C38.5947 11.939 38.2999 12.2584 37.9219 12.2969L37.8447 12.3008H0.816406C0.402193 12.3008 0.0664062 11.965 0.0664062 11.5508C0.0664062 11.1366 0.402193 10.8008 0.816406 10.8008H37.8447Z"></path></svg>
+                </div>
+          </div>
+                        <div class="box-body">
+                            <h3 class="elementskit-info-box-title">
+                    Rising Operational Costs                </h3>
+                                            </div>
+        
+        
+                </div>
+        </div>				</div>
+				</div>
+		<div class="elementor-element elementor-element-36242e3 e-con-full e-flex elementor-invisible e-con e-child" data-id="36242e3" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
+				<div class="elementor-element elementor-element-b3b5759 project-benefit-item elementor-widget-mobile__width-inherit ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box" data-id="b3b5759" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
+					<div class="ekit-wid-con" >        <!-- link opening -->
+                <!-- end link opening -->
+
+        <div class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
+                    <div class="elementskit-box-header elementor-animation-">
+                <div class="elementskit-info-box-icon  text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="currentColor"><path d="M35.1847 3.75473C35.4776 3.46202 35.9524 3.4619 36.2452 3.75473C36.5379 4.04758 36.5379 4.52243 36.2452 4.81528L26.5021 14.5584C26.2092 14.8511 25.7344 14.8511 25.4415 14.5584C25.1487 14.2656 25.1488 13.7908 25.4415 13.4979L35.1847 3.75473Z"></path><path d="M3.7558 3.75483C4.04869 3.46193 4.52346 3.46193 4.81635 3.75483L14.5595 13.498C14.8521 13.7909 14.8523 14.2657 14.5595 14.5585C14.2667 14.8513 13.7919 14.8511 13.499 14.5585L3.7558 4.81537C3.46291 4.52248 3.46291 4.04772 3.7558 3.75483Z"></path><path d="M13.4989 25.4403C13.7918 25.1476 14.2666 25.1475 14.5594 25.4403C14.8521 25.7332 14.8521 26.208 14.5594 26.5008L4.81628 36.244C4.52342 36.5367 4.0486 36.5367 3.75574 36.244C3.46289 35.9512 3.46298 35.4764 3.75574 35.1835L13.4989 25.4403Z"></path><path d="M25.4413 25.4404C25.7342 25.1475 26.209 25.1475 26.5019 25.4404L36.2451 35.1835C36.5376 35.4764 36.5378 35.9513 36.2451 36.2441C35.9523 36.5369 35.4774 36.5367 35.1845 36.2441L25.4413 26.5009C25.1485 26.208 25.1485 25.7333 25.4413 25.4404Z"></path><path d="M37.8213 19.999C37.8212 10.1566 29.8425 2.17773 20 2.17773C10.1576 2.17779 2.17878 10.1566 2.17871 19.999C2.17871 29.8415 10.1576 37.8203 20 37.8203C29.8426 37.8203 37.8213 29.8415 37.8213 19.999ZM39.3213 19.999C39.3213 30.6699 30.671 39.3203 20 39.3203C9.32915 39.3203 0.678711 30.6699 0.678711 19.999C0.678776 9.3282 9.32919 0.677788 20 0.677734C30.671 0.677734 39.3212 9.32816 39.3213 19.999Z"></path><path d="M27.6787 19.999C27.6787 15.7583 24.2406 12.3204 20 12.3203C15.7592 12.3203 12.3213 15.7582 12.3213 19.999C12.3213 24.2398 15.7593 27.6777 20 27.6777C24.2406 27.6777 27.6787 24.2397 27.6787 19.999ZM29.1787 19.999C29.1787 25.0681 25.069 29.1777 20 29.1777C14.9308 29.1777 10.8213 25.0682 10.8213 19.999C10.8213 14.9298 14.9308 10.8203 20 10.8203C25.0691 10.8204 29.1787 14.9299 29.1787 19.999Z"></path></svg>
+                </div>
+          </div>
+                        <div class="box-body">
+                            <h3 class="elementskit-info-box-title">
+                    Infrastructure Limitations                </h3>
+                                            </div>
+        
+        
+                </div>
+        </div>				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-46d3714 e-con-full e-flex e-con e-child" data-id="46d3714" data-element_type="container">
+				<div class="elementor-element elementor-element-f282b88 at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="f282b88" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">Challenges &amp; solutions</h2>				</div>
+				<div class="elementor-element elementor-element-b648c00 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="b648c00" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+									<p>Every major logistics transformation comes with unique challenges, and our Last-Mile Delivery Network Expansion Project was no exception. From managing growing delivery volumes to overcoming infrastructure and technology limitations,</p>								</div>
+		<div class="elementor-element elementor-element-cd9f6f1 e-con-full e-flex e-con e-child" data-id="cd9f6f1" data-element_type="container">
+		<div class="elementor-element elementor-element-2b2a6aa e-con-full e-flex elementor-invisible e-con e-child" data-id="2b2a6aa" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
+				<div class="elementor-element elementor-element-81cecec ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="81cecec" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
+					<div class="ekit-wid-con" >        <!-- link opening -->
+                <!-- end link opening -->
+
+        <div class="elementskit-infobox text-left text- icon-lef-right-aligin elementor-animation-   ">
+                        <div class="box-body">
+                            <h3 class="elementskit-info-box-title">
+                    Challenges                </h3>
+                        		  	<p>The Last-Mile Delivery Network Expansion Project faced multiple operational and technological hurdles. Through strategic innovation, data-driven decisions,</p>
+                                </div>
+        
+        
+                </div>
+        </div>				</div>
+				<div class="elementor-element elementor-element-5970a7e elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="5970a7e" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="icon-list.default">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">90% same-day or next-day service coverage</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">20% reduction in carbon emissions</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">40% improvement in delivery efficiency</span>
+									</li>
+						</ul>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-7d58a74 e-con-full e-flex elementor-invisible e-con e-child" data-id="7d58a74" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
+				<div class="elementor-element elementor-element-8caa5b5 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="8caa5b5" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
+					<div class="ekit-wid-con" >        <!-- link opening -->
+                <!-- end link opening -->
+
+        <div class="elementskit-infobox text-left text- icon-lef-right-aligin elementor-animation-   ">
+                        <div class="box-body">
+                            <h3 class="elementskit-info-box-title">
+                    Solutions                </h3>
+                        		  	<p>To overcome operational delay limited reach &amp; cost inefficiencies we implemented a series of innovative solutions that transformed our last-mile delivery</p>
+                                </div>
+        
+        
+                </div>
+        </div>				</div>
+				<div class="elementor-element elementor-element-de6f545 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="de6f545" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="icon-list.default">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Customer Communication Tools</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Performance Analytics Dashboard</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check-circle"></i>						</span>
+										<span class="elementor-icon-list-text">Workforce Training &amp; Development</span>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-e8c6437 e-con-full e-flex e-con e-child" data-id="e8c6437" data-element_type="container">
+				<div class="elementor-element elementor-element-4a22e0f at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="4a22e0f" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">Frequently asked questions</h2>				</div>
+				<div class="elementor-element elementor-element-ae485c1 faq-accordion elementor-invisible elementor-widget elementor-widget-elementskit-accordion" data-id="ae485c1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-accordion.default">
+					<div class="ekit-wid-con" >
+        <div class="elementskit-accordion accoedion-primary" id="accordion-6966162c9d81d">
+
+            
+                <div class="elementskit-card ">
+                    <div class="elementskit-card-header" id="primaryHeading-0-ae485c1">
+                        <a href="#collapse-9f403e36966162c9d81d" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-9f403e36966162c9d81d" aria-expanded="false" aria-controls="Collapse-9f403e36966162c9d81d">
+                            
+                                <span class="number"></span>
+
+                            
+                            <span class="ekit-accordion-title">What types of transportation services do you provide?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                        <!-- Normal Icon -->
+										<i class="fas fa-chevron-down"></i>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                                        <!-- Active Icon -->
+										<i class="fas fa-chevron-up"></i>                                    </div>
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-9f403e36966162c9d81d" class=" collapse" aria-labelledby="primaryHeading-0-ae485c1" data-parent="#accordion-6966162c9d81d">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            <p>Yes, our logistics solutions are specifically designed to support businesses of all, growing enterprises. We understand that smaller businesses need flexible affordable.</p>                        </div>
+
+                    </div>
+
+                </div><!-- .elementskit-card END -->
+
+                
+                <div class="elementskit-card active">
+                    <div class="elementskit-card-header" id="primaryHeading-1-ae485c1">
+                        <a href="#collapse-4f1cf346966162c9d81d" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-4f1cf346966162c9d81d" aria-expanded="true" aria-controls="Collapse-4f1cf346966162c9d81d">
+                            
+                                <span class="number"></span>
+
+                            
+                            <span class="ekit-accordion-title">Are you logistic solution cost-effective for small businesses?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                        <!-- Normal Icon -->
+										<i class="fas fa-chevron-down"></i>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                                        <!-- Active Icon -->
+										<i class="fas fa-chevron-up"></i>                                    </div>
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-4f1cf346966162c9d81d" class=" show collapse" aria-labelledby="primaryHeading-1-ae485c1" data-parent="#accordion-6966162c9d81d">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            <p>Yes, our logistics solutions are specifically designed to support businesses of all, growing enterprises. We understand that smaller businesses need flexible affordable.</p>                        </div>
+
+                    </div>
+
+                </div><!-- .elementskit-card END -->
+
+                
+                <div class="elementskit-card ">
+                    <div class="elementskit-card-header" id="primaryHeading-2-ae485c1">
+                        <a href="#collapse-9b9a5746966162c9d81d" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-9b9a5746966162c9d81d" aria-expanded="false" aria-controls="Collapse-9b9a5746966162c9d81d">
+                            
+                                <span class="number"></span>
+
+                            
+                            <span class="ekit-accordion-title">Do you handle international shipping &amp; custom clearance?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                        <!-- Normal Icon -->
+										<i class="fas fa-chevron-down"></i>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                                        <!-- Active Icon -->
+										<i class="fas fa-chevron-up"></i>                                    </div>
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-9b9a5746966162c9d81d" class=" collapse" aria-labelledby="primaryHeading-2-ae485c1" data-parent="#accordion-6966162c9d81d">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            <p>Yes, our logistics solutions are specifically designed to support businesses of all, growing enterprises. We understand that smaller businesses need flexible affordable.</p>                        </div>
+
+                    </div>
+
+                </div><!-- .elementskit-card END -->
+
+                
+                <div class="elementskit-card ">
+                    <div class="elementskit-card-header" id="primaryHeading-3-ae485c1">
+                        <a href="#collapse-95cf8486966162c9d81d" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-95cf8486966162c9d81d" aria-expanded="false" aria-controls="Collapse-95cf8486966162c9d81d">
+                            
+                                <span class="number"></span>
+
+                            
+                            <span class="ekit-accordion-title">How do you ensure the safety of my cargo?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                        <!-- Normal Icon -->
+										<i class="fas fa-chevron-down"></i>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                                        <!-- Active Icon -->
+										<i class="fas fa-chevron-up"></i>                                    </div>
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-95cf8486966162c9d81d" class=" collapse" aria-labelledby="primaryHeading-3-ae485c1" data-parent="#accordion-6966162c9d81d">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            <p>Yes, our logistics solutions are specifically designed to support businesses of all, growing enterprises. We understand that smaller businesses need flexible affordable.</p>                        </div>
+
+                    </div>
+
+                </div><!-- .elementskit-card END -->
+
+                
+                <div class="elementskit-card ">
+                    <div class="elementskit-card-header" id="primaryHeading-4-ae485c1">
+                        <a href="#collapse-bfc06766966162c9d81d" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-bfc06766966162c9d81d" aria-expanded="false" aria-controls="Collapse-bfc06766966162c9d81d">
+                            
+                                <span class="number"></span>
+
+                            
+                            <span class="ekit-accordion-title">Do you offer temperature controll or specialized shipping?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                        <!-- Normal Icon -->
+										<i class="fas fa-chevron-down"></i>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                                        <!-- Active Icon -->
+										<i class="fas fa-chevron-up"></i>                                    </div>
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-bfc06766966162c9d81d" class=" collapse" aria-labelledby="primaryHeading-4-ae485c1" data-parent="#accordion-6966162c9d81d">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            <p>Yes, our logistics solutions are specifically designed to support businesses of all, growing enterprises. We understand that smaller businesses need flexible affordable.</p>                        </div>
+
+                    </div>
+
+                </div><!-- .elementskit-card END -->
+
+                
+                <div class="elementskit-card ">
+                    <div class="elementskit-card-header" id="primaryHeading-5-ae485c1">
+                        <a href="#collapse-a897f106966162c9d81d" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-a897f106966162c9d81d" aria-expanded="false" aria-controls="Collapse-a897f106966162c9d81d">
+                            
+                                <span class="number"></span>
+
+                            
+                            <span class="ekit-accordion-title">How can I get a quote for my shipment?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                        <!-- Normal Icon -->
+										<i class="fas fa-chevron-down"></i>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                                        <!-- Active Icon -->
+										<i class="fas fa-chevron-up"></i>                                    </div>
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-a897f106966162c9d81d" class=" collapse" aria-labelledby="primaryHeading-5-ae485c1" data-parent="#accordion-6966162c9d81d">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            <p>Yes, our logistics solutions are specifically designed to support businesses of all, growing enterprises. We understand that smaller businesses need flexible affordable.</p>                        </div>
+
+                    </div>
+
+                </div><!-- .elementskit-card END -->
+
+                                        </div>
+    </div>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="ekit-template-content-markup ekit-template-content-footer ekit-template-content-theme-support">
+<style>.elementor-4831 .elementor-element.elementor-element-e388616{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--margin-top:0px;--margin-bottom:20px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:20px;--padding-right:20px;overflow:visible;}.elementor-4831 .elementor-element.elementor-element-57ec735{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--gap:50px 20px;--row-gap:50px;--column-gap:20px;--border-radius:10px 10px 10px 10px;--padding-top:100px;--padding-bottom:0px;--padding-left:10px;--padding-right:10px;overflow:visible;}.elementor-4831 .elementor-element.elementor-element-57ec735:not(.elementor-motion-effects-element-type-background), .elementor-4831 .elementor-element.elementor-element-57ec735 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-primary );}.elementor-4831 .elementor-element.elementor-element-90fb0d1{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--flex-wrap:wrap;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;overflow:visible;}.elementor-4831 .elementor-element.elementor-element-2913ee3{--display:flex;overflow:visible;}.elementor-widget-image .widget-image-caption{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-189a59e{text-align:left;}.elementor-4831 .elementor-element.elementor-element-189a59e img{width:100%;max-width:175px;}.elementor-4831 .elementor-element.elementor-element-72069a1{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--gap:30px 30px;--row-gap:30px;--column-gap:30px;border-style:solid;--border-style:solid;border-width:0px 1px 0px 0px;--border-top-width:0px;--border-right-width:1px;--border-bottom-width:0px;--border-left-width:0px;border-color:var( --e-global-color-darkdivider );--border-color:var( --e-global-color-darkdivider );--padding-top:10px;--padding-bottom:10px;--padding-left:10px;--padding-right:20px;overflow:visible;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-size:var( --e-global-typography-primary-font-size );font-weight:var( --e-global-typography-primary-font-weight );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );color:var( --e-global-color-primary );}.elementor-4831 .elementor-element.elementor-element-612a7bc{text-align:left;}.elementor-4831 .elementor-element.elementor-element-612a7bc .elementor-heading-title{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-size:var( --e-global-typography-secondary-font-size );font-weight:var( --e-global-typography-secondary-font-weight );line-height:var( --e-global-typography-secondary-line-height );color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-6e0094b .ekit-vertical-navbar-nav{background-color:#FFFFFF00;box-shadow:0px 0px 0px 0px rgba(0,0,0,0.5);}.elementor-4831 .elementor-element.elementor-element-6e0094b .ekit-vertical-navbar-nav>li>a{font-size:16px;font-weight:400;line-height:1.5em;letter-spacing:0px;color:var( --e-global-color-white );padding:0px 0px 15px 0px;}.elementor-4831 .elementor-element.elementor-element-6e0094b .ekit-vertical-navbar-nav>li>a:hover{color:var( --e-global-color-accent );}.elementor-4831 .elementor-element.elementor-element-6e0094b .ekit-vertical-navbar-nav>li:hover>a{color:var( --e-global-color-accent );}.elementor-4831 .elementor-element.elementor-element-6e0094b .ekit-vertical-navbar-nav>li{border-style:none;}.elementor-4831 .elementor-element.elementor-element-d367899{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--gap:30px 30px;--row-gap:30px;--column-gap:30px;border-style:solid;--border-style:solid;border-width:0px 1px 0px 0px;--border-top-width:0px;--border-right-width:1px;--border-bottom-width:0px;--border-left-width:0px;border-color:var( --e-global-color-darkdivider );--border-color:var( --e-global-color-darkdivider );--padding-top:10px;--padding-bottom:10px;--padding-left:60px;--padding-right:20px;overflow:visible;}.elementor-4831 .elementor-element.elementor-element-5069995{text-align:left;}.elementor-4831 .elementor-element.elementor-element-5069995 .elementor-heading-title{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-size:var( --e-global-typography-secondary-font-size );font-weight:var( --e-global-typography-secondary-font-weight );line-height:var( --e-global-typography-secondary-line-height );color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-1e9dc95.ekit-equal-height-enable,
+					.elementor-4831 .elementor-element.elementor-element-1e9dc95.ekit-equal-height-enable > div,
+					.elementor-4831 .elementor-element.elementor-element-1e9dc95.ekit-equal-height-enable .ekit-wid-con,
+					.elementor-4831 .elementor-element.elementor-element-1e9dc95.ekit-equal-height-enable .ekit-wid-con .elementskit-infobox{height:100%;}.elementor-4831 .elementor-element.elementor-element-1e9dc95 .elementskit-infobox{background-color:#FFFFFF00;padding:0px 0px 0px 0px;}.elementor-4831 .elementor-element.elementor-element-1e9dc95 .elementskit-infobox .elementskit-info-box-title{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;color:var( --e-global-color-accent );font-size:16px;font-weight:700;line-height:1.1em;letter-spacing:0px;}.elementor-4831 .elementor-element.elementor-element-1e9dc95 .elementskit-infobox .box-body > p{color:var( --e-global-color-white );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-1e9dc95 .elementskit-infobox p{margin:0px 0px 0px 0px;}.elementor-4831 .elementor-element.elementor-element-6da3797.ekit-equal-height-enable,
+					.elementor-4831 .elementor-element.elementor-element-6da3797.ekit-equal-height-enable > div,
+					.elementor-4831 .elementor-element.elementor-element-6da3797.ekit-equal-height-enable .ekit-wid-con,
+					.elementor-4831 .elementor-element.elementor-element-6da3797.ekit-equal-height-enable .ekit-wid-con .elementskit-infobox{height:100%;}.elementor-4831 .elementor-element.elementor-element-6da3797 .elementskit-infobox{background-color:#FFFFFF00;padding:0px 0px 0px 0px;}.elementor-4831 .elementor-element.elementor-element-6da3797 .elementskit-infobox .elementskit-info-box-title{margin:0px 0px 10px 0px;padding:0px 0px 0px 0px;color:var( --e-global-color-accent );font-size:16px;font-weight:700;line-height:1.1em;letter-spacing:0px;}.elementor-4831 .elementor-element.elementor-element-6da3797 .elementskit-infobox .box-body > p{color:var( --e-global-color-white );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-6da3797 .elementskit-infobox p{margin:0px 0px 0px 0px;}.elementor-4831 .elementor-element.elementor-element-77eaacf{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--gap:30px 30px;--row-gap:30px;--column-gap:30px;--padding-top:10px;--padding-bottom:10px;--padding-left:55px;--padding-right:10px;overflow:visible;}.elementor-4831 .elementor-element.elementor-element-bd778d5{text-align:left;}.elementor-4831 .elementor-element.elementor-element-bd778d5 .elementor-heading-title{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-size:var( --e-global-typography-secondary-font-size );font-weight:var( --e-global-typography-secondary-font-weight );line-height:var( --e-global-typography-secondary-line-height );color:var( --e-global-color-white );}.elementor-widget-text-editor{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );line-height:var( --e-global-typography-text-line-height );color:var( --e-global-color-text );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-4831 .elementor-element.elementor-element-7e70be4{text-align:left;font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );line-height:var( --e-global-typography-text-line-height );color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]) ,.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form textarea, .elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form select{background-color:#FFFFFF00;}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):hover ,.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form textarea:hover, .elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form select:hover{background-color:#FFFFFF00;}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):focus ,.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form textarea:focus, .elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form select:focus{background-color:#FFFFFF00;}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form input[type="submit"]{background-color:var( --e-global-color-accent );font-size:0px;border-radius:100px 100px 100px 100px;padding:0px 0px 0px 0px;width:50px;height:50px;color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form input[type="submit"]:hover{background-color:var( --e-global-color-darkdivider );color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]), .elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form select{padding:14px 24px 14px 24px;width:100%;height:50px;border-radius:100px 100px 100px 100px;color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form textarea{width:100%;height:176px;border-radius:100px 100px 100px 100px;}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]), .elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form textarea, .elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form select{border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-darkdivider );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]), .wpcf7-form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]), .elementor-4831 .elementor-element.elementor-element-33966ac .wpcf7-form textarea, .elementor-4831 .elementor-element.elementor-element-33966ac .ekit-wid-con .ekit-form form textarea, .elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form select{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-33966ac .wpcf7-form textarea{color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-wid-con .ekit-form form textarea{color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"])::-webkit-input-placeholder{font-size:16px;color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"])::-moz-placeholder{font-size:16px;color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):-ms-input-placeholder{font-size:16px;color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):-moz-placeholder{font-size:16px;color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form textarea::-webkit-input-placeholder{font-size:16px;color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form textarea::-moz-placeholder{font-size:16px;color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form textarea:-ms-input-placeholder{font-size:16px;color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form textarea:-moz-placeholder{font-size:16px;color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form > p{text-align:left;}.elementor-4831 .elementor-element.elementor-element-a0f2c81{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--flex-wrap:wrap;border-style:solid;--border-style:solid;border-width:1px 0px 0px 0px;--border-top-width:1px;--border-right-width:0px;--border-bottom-width:0px;--border-left-width:0px;border-color:var( --e-global-color-darkdivider );--border-color:var( --e-global-color-darkdivider );--padding-top:50px;--padding-bottom:50px;--padding-left:0px;--padding-right:0px;overflow:visible;}.elementor-4831 .elementor-element.elementor-element-fb25555{--display:flex;overflow:visible;}.elementor-4831 .elementor-element.elementor-element-ad7fada{text-align:left;font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );line-height:var( --e-global-typography-text-line-height );color:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-accca68{--display:flex;overflow:visible;}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-3a44531 > a :is(i, svg){color:var( --e-global-color-accent );fill:var( --e-global-color-accent );}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-3a44531 > a{border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-accent );}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-3a44531 > a:hover{color:var( --e-global-color-white );background-color:var( --e-global-color-accent );}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-3a44531 > a:hover svg path{stroke:var( --e-global-color-white );fill:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-035785c > a :is(i, svg){color:var( --e-global-color-accent );fill:var( --e-global-color-accent );}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-035785c > a{border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-accent );}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-035785c > a:hover{color:var( --e-global-color-white );background-color:var( --e-global-color-accent );}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-035785c > a:hover svg path{stroke:var( --e-global-color-white );fill:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-8650ab7 > a :is(i, svg){color:var( --e-global-color-accent );fill:var( --e-global-color-accent );}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-8650ab7 > a{border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-accent );}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-8650ab7 > a:hover{color:var( --e-global-color-white );background-color:var( --e-global-color-accent );}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-8650ab7 > a:hover svg path{stroke:var( --e-global-color-white );fill:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-ac19325 > a :is(i, svg){color:var( --e-global-color-accent );fill:var( --e-global-color-accent );}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-ac19325 > a{border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-accent );}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-ac19325 > a:hover{color:var( --e-global-color-white );background-color:var( --e-global-color-accent );}.elementor-4831 .elementor-element.elementor-element-ccf530a .elementor-repeater-item-ac19325 > a:hover svg path{stroke:var( --e-global-color-white );fill:var( --e-global-color-white );}.elementor-4831 .elementor-element.elementor-element-ccf530a .ekit_social_media{text-align:right;}.elementor-4831 .elementor-element.elementor-element-ccf530a .ekit_social_media > li > a{text-align:center;text-decoration:none;border-radius:50% 50% 50% 50%;width:36px;height:36px;line-height:32px;}.elementor-4831 .elementor-element.elementor-element-ccf530a .ekit_social_media > li{display:inline-block;margin:0px 0px 0px 10px;}.elementor-4831 .elementor-element.elementor-element-ccf530a .ekit_social_media > li > a i{font-size:18px;}.elementor-4831 .elementor-element.elementor-element-ccf530a .ekit_social_media > li > a svg{max-width:18px;}@media(max-width:1440px){.elementor-widget-image .widget-image-caption{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );}.elementor-4831 .elementor-element.elementor-element-612a7bc .elementor-heading-title{font-size:var( --e-global-typography-secondary-font-size );line-height:var( --e-global-typography-secondary-line-height );}.elementor-4831 .elementor-element.elementor-element-5069995 .elementor-heading-title{font-size:var( --e-global-typography-secondary-font-size );line-height:var( --e-global-typography-secondary-line-height );}.elementor-4831 .elementor-element.elementor-element-1e9dc95 .elementskit-infobox .box-body > p{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-6da3797 .elementskit-infobox .box-body > p{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-bd778d5 .elementor-heading-title{font-size:var( --e-global-typography-secondary-font-size );line-height:var( --e-global-typography-secondary-line-height );}.elementor-widget-text-editor{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-7e70be4{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]), .wpcf7-form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]), .elementor-4831 .elementor-element.elementor-element-33966ac .wpcf7-form textarea, .elementor-4831 .elementor-element.elementor-element-33966ac .ekit-wid-con .ekit-form form textarea, .elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form select{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-ad7fada{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}}@media(min-width:768px){.elementor-4831 .elementor-element.elementor-element-e388616{--content-width:1880px;}.elementor-4831 .elementor-element.elementor-element-2913ee3{--width:25%;}.elementor-4831 .elementor-element.elementor-element-72069a1{--width:15%;}.elementor-4831 .elementor-element.elementor-element-d367899{--width:25%;}.elementor-4831 .elementor-element.elementor-element-77eaacf{--width:35%;}.elementor-4831 .elementor-element.elementor-element-fb25555{--width:50%;}.elementor-4831 .elementor-element.elementor-element-accca68{--width:50%;}}@media(max-width:1440px) and (min-width:768px){.elementor-4831 .elementor-element.elementor-element-57ec735{--content-width:1300px;}}@media(max-width:1024px) and (min-width:768px){.elementor-4831 .elementor-element.elementor-element-e388616{--content-width:100%;}.elementor-4831 .elementor-element.elementor-element-57ec735{--content-width:100%;}.elementor-4831 .elementor-element.elementor-element-90fb0d1{--width:100%;}.elementor-4831 .elementor-element.elementor-element-2913ee3{--width:41%;}.elementor-4831 .elementor-element.elementor-element-72069a1{--width:25%;}.elementor-4831 .elementor-element.elementor-element-d367899{--width:34%;}.elementor-4831 .elementor-element.elementor-element-77eaacf{--width:100%;}.elementor-4831 .elementor-element.elementor-element-a0f2c81{--width:100%;}}@media(max-width:1024px){.elementor-4831 .elementor-element.elementor-element-e388616{--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-4831 .elementor-element.elementor-element-57ec735{--gap:20px 20px;--row-gap:20px;--column-gap:20px;--border-radius:0px 0px 0px 0px;--padding-top:50px;--padding-bottom:0px;--padding-left:10px;--padding-right:10px;}.elementor-4831 .elementor-element.elementor-element-90fb0d1{--gap:10px 0px;--row-gap:10px;--column-gap:0px;}.elementor-widget-image .widget-image-caption{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-72069a1{--gap:20px 20px;--row-gap:20px;--column-gap:20px;}.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );}.elementor-4831 .elementor-element.elementor-element-612a7bc .elementor-heading-title{font-size:var( --e-global-typography-secondary-font-size );line-height:var( --e-global-typography-secondary-line-height );}.elementor-4831 .elementor-element.elementor-element-d367899{--gap:20px 20px;--row-gap:20px;--column-gap:20px;border-width:0px 0px 0px 0px;--border-top-width:0px;--border-right-width:0px;--border-bottom-width:0px;--border-left-width:0px;--padding-top:10px;--padding-bottom:10px;--padding-left:30px;--padding-right:10px;}.elementor-4831 .elementor-element.elementor-element-5069995 .elementor-heading-title{font-size:var( --e-global-typography-secondary-font-size );line-height:var( --e-global-typography-secondary-line-height );}.elementor-4831 .elementor-element.elementor-element-1e9dc95 .elementskit-infobox .box-body > p{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-6da3797 .elementskit-infobox .box-body > p{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-77eaacf{--gap:20px 20px;--row-gap:20px;--column-gap:20px;--padding-top:10px;--padding-bottom:10px;--padding-left:10px;--padding-right:10px;}.elementor-4831 .elementor-element.elementor-element-bd778d5 .elementor-heading-title{font-size:var( --e-global-typography-secondary-font-size );line-height:var( --e-global-typography-secondary-line-height );}.elementor-widget-text-editor{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-7e70be4{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]), .wpcf7-form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]), .elementor-4831 .elementor-element.elementor-element-33966ac .wpcf7-form textarea, .elementor-4831 .elementor-element.elementor-element-33966ac .ekit-wid-con .ekit-form form textarea, .elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form select{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-a0f2c81{--padding-top:20px;--padding-bottom:20px;--padding-left:0px;--padding-right:0px;}.elementor-4831 .elementor-element.elementor-element-ad7fada{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}}@media(max-width:767px){.elementor-4831 .elementor-element.elementor-element-90fb0d1{--gap:10px 10px;--row-gap:10px;--column-gap:10px;}.elementor-widget-image .widget-image-caption{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-72069a1{border-width:0px 0px 0px 0px;--border-top-width:0px;--border-right-width:0px;--border-bottom-width:0px;--border-left-width:0px;--padding-top:10px;--padding-bottom:10px;--padding-left:10px;--padding-right:10px;}.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );}.elementor-4831 .elementor-element.elementor-element-612a7bc .elementor-heading-title{font-size:var( --e-global-typography-secondary-font-size );line-height:var( --e-global-typography-secondary-line-height );}.elementor-4831 .elementor-element.elementor-element-d367899{--padding-top:10px;--padding-bottom:10px;--padding-left:10px;--padding-right:10px;}.elementor-4831 .elementor-element.elementor-element-5069995 .elementor-heading-title{font-size:var( --e-global-typography-secondary-font-size );line-height:var( --e-global-typography-secondary-line-height );}.elementor-4831 .elementor-element.elementor-element-1e9dc95 .elementskit-infobox .box-body > p{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-6da3797 .elementskit-infobox .box-body > p{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-bd778d5 .elementor-heading-title{font-size:var( --e-global-typography-secondary-font-size );line-height:var( --e-global-typography-secondary-line-height );}.elementor-widget-text-editor{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-7e70be4{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]), .wpcf7-form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]), .elementor-4831 .elementor-element.elementor-element-33966ac .wpcf7-form textarea, .elementor-4831 .elementor-element.elementor-element-33966ac .ekit-wid-con .ekit-form form textarea, .elementor-4831 .elementor-element.elementor-element-33966ac .ekit-form form select{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-a0f2c81{--flex-direction:column-reverse;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:center;--gap:15px 15px;--row-gap:15px;--column-gap:15px;--padding-top:15px;--padding-bottom:15px;--padding-left:10px;--padding-right:10px;}.elementor-4831 .elementor-element.elementor-element-fb25555{--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-4831 .elementor-element.elementor-element-ad7fada{text-align:center;font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-4831 .elementor-element.elementor-element-accca68{--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-4831 .elementor-element.elementor-element-ccf530a .ekit_social_media{text-align:center;}.elementor-4831 .elementor-element.elementor-element-ccf530a .ekit_social_media > li{margin:0px 5px 0px 5px;}}</style>		<div data-elementor-type="wp-post" data-elementor-id="4831" class="elementor elementor-4831">
+				<div class="elementor-element elementor-element-e388616 e-flex e-con-boxed e-con e-parent" data-id="e388616" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-57ec735 e-flex e-con-boxed e-con e-child" data-id="57ec735" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-90fb0d1 e-con-full e-flex e-con e-child" data-id="90fb0d1" data-element_type="container">
+		<div class="elementor-element elementor-element-2913ee3 e-con-full e-flex e-con e-child" data-id="2913ee3" data-element_type="container">
+				<div class="elementor-element elementor-element-189a59e at-image-animation at-animation-image-none at-none elementor-widget elementor-widget-image" data-id="189a59e" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
+															<img width="175" height="50" src="../../wp-content/uploads/2025/11/logo.svg" class="attachment-full size-full wp-image-27" alt="" />															</div>
+				</div>
+		<div class="elementor-element elementor-element-72069a1 e-con-full e-flex e-con e-child" data-id="72069a1" data-element_type="container">
+				<div class="elementor-element elementor-element-612a7bc at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading" data-id="612a7bc" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+					<h3 class="elementor-heading-title elementor-size-default">Quick Link</h3>				</div>
+				<div class="elementor-element elementor-element-6e0094b footer-links elementor-widget elementor-widget-ekit-vertical-menu" data-id="6e0094b" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="ekit-vertical-menu.default">
+					<div class="ekit-wid-con">        <div 
+            class="ekit-vertical-main-menu-wraper   badge-position-left"
+        >
+                        <div class="ekit-vertical-menu-container"><ul id="menu-footer-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-7553" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-7553 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../index.html" class="ekit-menu-nav-link">Home</a></li>
+<li id="menu-item-4864" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4864 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../about-us/index.html" class="ekit-menu-nav-link">About Us</a></li>
+<li id="menu-item-9782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9782 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../services/index.html" class="ekit-menu-nav-link">Services</a></li>
+<li id="menu-item-6299" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-6299 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../blog/index.html" class="ekit-menu-nav-link">Blog</a></li>
+<li id="menu-item-7557" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7557 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../../contact-us/index.html" class="ekit-menu-nav-link">Contact Us</a></li>
+</ul></div>        </div>
+        </div>				</div>
+				</div>
+		<div class="elementor-element elementor-element-d367899 e-con-full e-flex e-con e-child" data-id="d367899" data-element_type="container">
+				<div class="elementor-element elementor-element-5069995 at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading" data-id="5069995" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+					<h3 class="elementor-heading-title elementor-size-default">Contact</h3>				</div>
+				<div class="elementor-element elementor-element-1e9dc95 contact-info-item ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="1e9dc95" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
+					<div class="ekit-wid-con" >        <!-- link opening -->
+                <!-- end link opening -->
+
+        <div class="elementskit-infobox text-left text- icon-lef-right-aligin elementor-animation-   ">
+                        <div class="box-body">
+                            <h3 class="elementskit-info-box-title">
+                    Call / E-mail                </h3>
+                        		  	<p><a href="tel:+985-258-263"> +985-258-263</a></br><a href="mailto:info@domainname.com">info@domainname.com</a></p>
+                                </div>
+        
+        
+                </div>
+        </div>				</div>
+				<div class="elementor-element elementor-element-6da3797 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="6da3797" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
+					<div class="ekit-wid-con" >        <!-- link opening -->
+                <!-- end link opening -->
+
+        <div class="elementskit-infobox text-left text- icon-lef-right-aligin elementor-animation-   ">
+                        <div class="box-body">
+                            <h3 class="elementskit-info-box-title">
+                    Visit Our Office                </h3>
+                        		  	<p>1234 Logistics Avenue, Suite 567, Transport City, USA</p>
+                                </div>
+        
+        
+                </div>
+        </div>				</div>
+				</div>
+		<div class="elementor-element elementor-element-77eaacf e-con-full e-flex e-con e-child" data-id="77eaacf" data-element_type="container">
+				<div class="elementor-element elementor-element-bd778d5 at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading" data-id="bd778d5" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+					<h3 class="elementor-heading-title elementor-size-default">Subscribe Newsletter's</h3>				</div>
+				<div class="elementor-element elementor-element-7e70be4 elementor-widget elementor-widget-text-editor" data-id="7e70be4" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+									<p>We deliver cutting-edge transportation and logistics solutions that combine.</p>								</div>
+				<div class="elementor-element elementor-element-33966ac footer-form elementor-widget elementor-widget-elementskit-contact-form7" data-id="33966ac" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-contact-form7.default">
+					<div class="ekit-wid-con" ><div class="ekit-form">
+<div class="wpcf7 no-js" id="wpcf7-f6644-o1" lang="en-US" dir="ltr" data-wpcf7-id="6644">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="https://demo.awaikenthemes.com/carvox/projects/real-time-cargo-visibility-and-control-platform/#wpcf7-f6644-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="6644" /><input type="hidden" name="_wpcf7_version" value="6.1.4" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f6644-o1" /><input type="hidden" name="_wpcf7_container_post" value="0" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</fieldset>
+<div class="form-group">
+	<div class="email-field">
+		<p><span class="wpcf7-form-control-wrap" data-name="email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email form-control" id="email" aria-required="true" aria-invalid="false" placeholder="Your email Address*" value="" type="email" name="email" /></span>
+		</p>
+	</div>
+	<div class="newsletter-btn">
+		<p><input class="wpcf7-form-control wpcf7-submit has-spinner" id="msgSubmit" type="submit" value="Subscribe" />
+		</p>
+	</div>
+</div><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+</div></div>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-a0f2c81 e-con-full e-flex e-con e-child" data-id="a0f2c81" data-element_type="container">
+		<div class="elementor-element elementor-element-fb25555 e-con-full e-flex e-con e-child" data-id="fb25555" data-element_type="container">
+				<div class="elementor-element elementor-element-ad7fada elementor-widget elementor-widget-text-editor" data-id="ad7fada" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+									<p>Copyright © 2026 All Rights Reserved.</p>								</div>
+				</div>
+		<div class="elementor-element elementor-element-accca68 e-con-full e-flex e-con e-child" data-id="accca68" data-element_type="container">
+				<div class="elementor-element elementor-element-ccf530a elementor-widget elementor-widget-elementskit-social-media" data-id="ccf530a" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-social-media.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con" >			 <ul class="ekit_social_media">
+														<li class="elementor-repeater-item-3a44531">
+					    <a
+						href="#" aria-label="pinterest" class="p" >
+							
+							<i aria-hidden="true" class="fab fa-pinterest-p"></i>
+                                                                                                            </a>
+                    </li>
+                    														<li class="elementor-repeater-item-035785c">
+					    <a
+						href="#" aria-label="Twitter" class="twitter" >
+							
+							<i aria-hidden="true" class="fab fa-x-twitter"></i>
+                                                                                                            </a>
+                    </li>
+                    														<li class="elementor-repeater-item-8650ab7">
+					    <a
+						href="#" aria-label="Facebook" class="f" >
+							
+							<i aria-hidden="true" class="fab fa-facebook-f"></i>
+                                                                                                            </a>
+                    </li>
+                    														<li class="elementor-repeater-item-ac19325">
+					    <a
+						href="#" aria-label="Instagram" class="instagram" >
+							
+							<i aria-hidden="true" class="fab fa-instagram"></i>
+                                                                                                            </a>
+                    </li>
+                    							</ul>
+		</div>				</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		</div>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/carvox/*"},{"not":{"href_matches":["/carvox/wp-*.php","/carvox/wp-admin/*","/carvox/wp-content/uploads/*","/carvox/wp-content/*","/carvox/wp-content/plugins/*","/carvox/wp-content/themes/carvox/*","/carvox/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<link rel='stylesheet' id='elementor-post-7197-css' href='../../wp-content/uploads/elementor/css/post-7197503a.css?ver=1767602046' media='all' />
+<script src="../../wp-includes/js/dist/hooks.minaf5f.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script src="../../wp-includes/js/dist/i18n.min1cde.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script src="../../wp-content/plugins/contact-form-7/includes/swv/js/index1b46.js?ver=6.1.4" id="swv-js"></script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/demo.awaikenthemes.com\/carvox\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script src="../../wp-content/plugins/contact-form-7/includes/js/index1b46.js?ver=6.1.4" id="contact-form-7-js"></script>
+<script src="../../wp-content/themes/carvox/assets/js/SmoothScroll.minf269.js?ver=1.0.1" id="SmoothScroll-js"></script>
+<script src="../../wp-content/themes/carvox/assets/js/gsap.minf269.js?ver=1.0.1" id="gsap-js"></script>
+<script src="../../wp-content/themes/carvox/assets/js/magiccursorf269.js?ver=1.0.1" id="magiccursor-js"></script>
+<script src="../../wp-content/themes/carvox/assets/js/SplitTextf269.js?ver=1.0.1" id="SplitText-js"></script>
+<script src="../../wp-content/themes/carvox/assets/js/ScrollTrigger.minf269.js?ver=1.0.1" id="ScrollTrigger-js"></script>
+<script src="../../wp-content/themes/carvox/assets/js/three.minf269.js?ver=1.0.1" id="three-js-js"></script>
+<script id="theme-js-js-extra">
+var theme_vars = {"theme_uri":"https://demo.awaikenthemes.com/carvox/wp-content/themes/carvox"};
+//# sourceURL=theme-js-js-extra
+</script>
+<script src="../../wp-content/themes/carvox/assets/js/functionf269.js?ver=1.0.1" id="theme-js-js"></script>
+<script src="../../wp-includes/js/comment-reply.mind4d0.js?ver=6.9" id="comment-reply-js" async data-wp-strategy="async" fetchpriority="low"></script>
+<script src="../../wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-scriptac9e.js?ver=3.7.7" id="elementskit-framework-js-frontend-js"></script>
+<script id="elementskit-framework-js-frontend-js-after">
+		var elementskit = {
+			resturl: 'https://demo.awaikenthemes.com/carvox/wp-json/elementskit/v1/',
+		}
+
+		
+//# sourceURL=elementskit-framework-js-frontend-js-after
+</script>
+<script src="../../wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scriptsac9e.js?ver=3.7.7" id="ekit-widget-scripts-js"></script>
+<script src="../../wp-content/plugins/elementor/assets/js/webpack.runtime.min37de.js?ver=3.33.4" id="elementor-webpack-runtime-js"></script>
+<script src="../../wp-content/plugins/elementor/assets/js/frontend-modules.min37de.js?ver=3.33.4" id="elementor-frontend-modules-js"></script>
+<script src="../../wp-includes/js/jquery/ui/core.minb37e.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1440,"default_value":1366,"direction":"max","is_enabled":true},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":true},"version":"3.33.4","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"container":true,"e_optimized_markup":true,"e_pro_free_trial_popup":true,"nested-elements":true,"home_screen":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"cloud-library":true,"e_opt_in_v4_page":true,"import-export-customization":true},"urls":{"assets":"https:\/\/demo.awaikenthemes.com\/carvox\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/demo.awaikenthemes.com\/carvox\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/demo.awaikenthemes.com\/carvox\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"b670d9d2e1"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet","viewport_laptop"],"viewport_laptop":1440,"body_background_background":"classic","global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":7464,"title":"Real-Time%20Cargo%20Visibility%20and%20Control%20Platform%20%E2%80%93%20Carvox","excerpt":"","featuredImage":"https:\/\/demo.awaikenthemes.com\/carvox\/wp-content\/uploads\/2025\/11\/project-3-1024x683.jpg"}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script src="../../wp-content/plugins/elementor/assets/js/frontend.min37de.js?ver=3.33.4" id="elementor-frontend-js"></script>
+<script src="../../wp-content/plugins/elementskit/modules/parallax/assets/js/jarallax8aee.js?ver=4.1.2" id="jarallax-js"></script>
+<script src="../../wp-content/plugins/elementskit/modules/parallax/assets/js/parallax-admin8aee.js?ver=4.1.2" id="elementskit-parallax-admin-js"></script>
+<script src="../../wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.minac9e.js?ver=3.7.7" id="animate-circle-js"></script>
+<script id="elementskit-elementor-js-extra">
+var ekit_config = {"ajaxurl":"https://demo.awaikenthemes.com/carvox/wp-admin/admin-ajax.php","nonce":"d9f4b04fbe"};
+//# sourceURL=elementskit-elementor-js-extra
+</script>
+<script src="../../wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementorac9e.js?ver=3.7.7" id="elementskit-elementor-js"></script>
+<script src="../../wp-content/plugins/elementskit/widgets/init/assets/js/elementor8aee.js?ver=4.1.2" id="elementskit-elementor-pro-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://demo.awaikenthemes.com/carvox/wp-includes/js/wp-emoji-release.min.js?ver=6.9"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://demo.awaikenthemes.com/carvox/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script src="../../../assets/js/theme-panel.js"></script>
+
+</body>
+
+<!-- Mirrored from demo.awaikenthemes.com/carvox/projects/real-time-cargo-visibility-and-control-platform/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Jan 2026 09:55:00 GMT -->
+</html>
