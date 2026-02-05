@@ -498,8 +498,7 @@
 		content="https://demo.awaikenthemes.com/carvox/wp-content/uploads/2025/11/favicon.png" />
 </head>
 
-<body
-	class="wp-singular page-template page-template-elementor_header_footer page page-id-7178 page-child parent-pageid-5315 wp-custom-logo wp-theme-carvox tt-magic-cursor fancy-scrollbar elementor-default elementor-template-full-width elementor-kit-9 elementor-page elementor-page-7178">
+<body class="wp-singular page-template page-template-elementor_header_footer page page-id-7178 page-child parent-pageid-5315 wp-custom-logo wp-theme-carvox tt-magic-cursor fancy-scrollbar elementor-default elementor-template-full-width elementor-kit-9 elementor-page elementor-page-7178">
 
 	<div class="theme-preloader">
 		<div class="loading-container">
