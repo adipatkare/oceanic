@@ -622,7 +622,7 @@
 											<div class="ata-site-logo-set">
 												<div class="ata-site-logo-container">
 													<img class="ata-site-logo-img elementor-animation-"
-														src="../wp-content/uploads/2025/11/logo1.png"
+														src="../../wp-content/uploads/2025/11/logo1.png"
 														alt="default-logo" />
 												</div>
 											</div>
