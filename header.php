@@ -651,7 +651,7 @@
 												class="elementskit-navbar-nav elementskit-menu-po-center submenu-click-on-icon">
 												<li id="menu-item-4848"
 													class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4848 nav-item elementskit-mobile-builder-content"
-													data-vertical-menu=750px><a href="index.php"
+													data-vertical-menu=750px><a href="../../index.php"
 														class="ekit-menu-nav-link">Home</a></li>
 												<li id="menu-item-4857"
 													class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4857 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content"

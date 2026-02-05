@@ -625,7 +625,7 @@
 																href="tel:+985258263">
 																<span class="elementor-button-content-wrapper">
 																	<span
-																		class="elementor-button-text">+985-258-263</span>
+																		class="elementor-button-text">+91 22 27817171/72</span>
 																</span>
 															</a>
 														</div>
@@ -707,7 +707,7 @@
 											<div class="box-body">
 												<h3 class="elementskit-info-box-title">
 													Phone Number </h3>
-												<p>+985-258-263</p>
+												<p>+91 22 27817171/72</p>
 											</div>
 
 
@@ -743,7 +743,7 @@
 											<div class="box-body">
 												<h3 class="elementskit-info-box-title">
 													Email Address </h3>
-												<p>info@domainname.com</p>
+												<p>info@oceanicstarshipping.com</p>
 											</div>
 
 
@@ -779,7 +779,7 @@
 											<div class="box-body">
 												<h3 class="elementskit-info-box-title">
 													Our Location </h3>
-												<p>1234 Logistics Avenue, Suite 567,</p>
+												<p>Oceanic Star Shipping Pvt. Ltd., Office no 602-603, Realtech Park, Sector 30A, Vashi, Navi Mumbai-400703, Maharashtra</p>
 											</div>
 
 
@@ -812,7 +812,7 @@
 											<div class="box-body">
 												<h3 class="elementskit-info-box-title">
 													Our Position </h3>
-												<p>Operations Director</p>
+												<p>Director</p>
 											</div>
 
 
@@ -828,106 +828,75 @@
 							data-id="12fc533" data-element_type="widget"
 							data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
 							data-widget_type="heading.default">
-							<h2 class="elementor-heading-title elementor-size-default">Professional skills</h2>
+							<h2 class="elementor-heading-title elementor-size-default">Get to know us
+Oceanic Star Shipping Pvt. Ltd.</h2>
 						</div>
 						<div class="elementor-element elementor-element-801725b elementor-invisible elementor-widget elementor-widget-text-editor"
 							data-id="801725b" data-element_type="widget"
 							data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
 							data-widget_type="text-editor.default">
-							<p>Our team is built on a foundation of expertise, precision, and adaptability. Each
-								professional brings a unique set of skills that ensures every shipment, route, and
-								delivery meets the highest industry standards. From strategic planning and real-time
-								tracking to supply chain analysis and customer communication, our team combines
-								technical knowledge with hands-on experience.</p>
+							<p>Welcome to the thriving world of the fastest growing global leaders in ship manning company, proudly based in India. With nearly two decades of excellence in crew management, our company has been a trusted partner for ship owners and managers across the globe, catering to all major and minor ship activities. Our success lies in the dedication of our highly experienced officers, who work tirelessly around the clock to uphold our core values and drive the continuous expansion of our impressive fleet.</p></br>
+							<p>For almost 20 years, we have been at the forefront of the maritime industry, providing top-notch crew management services to ensure smooth operations and optimal performance for our clients' vessels. Our proven footprint speaks volumes about the level of expertise and reliability we bring to the table. The trust we have earned from ship owners and managers worldwide is a testament to our commitment to excellence. As we forge ahead, our passionate team remains the driving force behind our accomplishments, ensuring that our vessels are manned with the most competent and skilled crew members. With a customer-centric approach and a focus on maintaining the highest industry standards, we are determined to continue our ascent as a global leader in ship manning, setting new benchmarks for the maritime industry.</p>
 						</div>
 						<div class="elementor-element elementor-element-b216952 e-con-full e-flex e-con e-child"
 							data-id="b216952" data-element_type="container">
+							
 							<div class="elementor-element elementor-element-5b74a14 elementor-widget__width-initial member-skill-item elementor-widget elementor-widget-elementskit-piechart"
 								data-id="5b74a14" data-element_type="widget"
 								data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
 								data-widget_type="elementskit-piechart.default">
-								<div class="elementor-widget-container">
+								<!-- <div class="elementor-widget-container">
 									<div class="ekit-wid-con">
 										<div class="ekit-single-piechart withcontent">
-
-
 											<div class="colorful-chart piechart" data-pie_color_style="normal"
 												data-gradientcolor1="" data-gradientcolor2="" data-color="#FF7D44"
 												data-barbg="#104B5A1A" data-size="100" data-linewidth="4"
 												data-percent="85">
-
-
 												<span class="ekit-chart-content">85&#37;</span>
-
-
-
-
-
-
 											</div>
 											<h2 class="ekit-piechart-title">Real-Time Data Monitor</h2>
 										</div>
 									</div>
-								</div>
+								</div> -->
 							</div>
-							<div class="elementor-element elementor-element-6011f8d elementor-widget__width-initial member-skill-item elementor-widget elementor-widget-elementskit-piechart"
+							<!-- <div class="elementor-element elementor-element-6011f8d elementor-widget__width-initial member-skill-item elementor-widget elementor-widget-elementskit-piechart"
 								data-id="6011f8d" data-element_type="widget"
 								data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
 								data-widget_type="elementskit-piechart.default">
 								<div class="elementor-widget-container">
 									<div class="ekit-wid-con">
 										<div class="ekit-single-piechart withcontent">
-
-
 											<div class="colorful-chart piechart" data-pie_color_style="normal"
 												data-gradientcolor1="" data-gradientcolor2="" data-color="#FF7D44"
 												data-barbg="#104B5A1A" data-size="100" data-linewidth="4"
 												data-percent="65">
-
-
 												<span class="ekit-chart-content">65&#37;</span>
-
-
-
-
-
-
 											</div>
 											<h2 class="ekit-piechart-title">Transport Cost Analysis</h2>
 										</div>
 									</div>
 								</div>
-							</div>
-							<div class="elementor-element elementor-element-e0aa73f elementor-widget__width-initial member-skill-item elementor-widget elementor-widget-elementskit-piechart"
+							</div> -->
+							<!-- <div class="elementor-element elementor-element-e0aa73f elementor-widget__width-initial member-skill-item elementor-widget elementor-widget-elementskit-piechart"
 								data-id="e0aa73f" data-element_type="widget"
 								data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
 								data-widget_type="elementskit-piechart.default">
 								<div class="elementor-widget-container">
 									<div class="ekit-wid-con">
 										<div class="ekit-single-piechart withcontent">
-
-
 											<div class="colorful-chart piechart" data-pie_color_style="normal"
 												data-gradientcolor1="" data-gradientcolor2="" data-color="#FF7D44"
 												data-barbg="#104B5A1A" data-size="100" data-linewidth="4"
 												data-percent="90">
-
-
 												<span class="ekit-chart-content">90&#37;</span>
-
-
-
-
-
-
 											</div>
 											<h2 class="ekit-piechart-title">Negotiation and Vendor</h2>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="elementor-element elementor-element-76f5333 e-con-full e-flex elementor-invisible e-con e-child"
+						</div> -->
+						<!-- <div class="elementor-element elementor-element-76f5333 e-con-full e-flex elementor-invisible e-con e-child"
 							data-id="76f5333" data-element_type="container"
 							data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
 							<div class="elementor-element elementor-element-f462cc3 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
@@ -961,24 +930,24 @@
 									</li>
 								</ul>
 							</div>
-						</div>
+						</div> -->
 					</div>
 					<div class="elementor-element elementor-element-a2892ae e-con-full e-flex e-con e-child"
 						data-id="a2892ae" data-element_type="container">
-						<div class="elementor-element elementor-element-d0fe509 at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading"
+						<!-- <div class="elementor-element elementor-element-d0fe509 at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading"
 							data-id="d0fe509" data-element_type="widget"
 							data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
 							data-widget_type="heading.default">
 							<h2 class="elementor-heading-title elementor-size-default">Achievements and experience</h2>
-						</div>
-						<div class="elementor-element elementor-element-bcf7e3c elementor-invisible elementor-widget elementor-widget-text-editor"
+						</div> -->
+						<!-- <div class="elementor-element elementor-element-bcf7e3c elementor-invisible elementor-widget elementor-widget-text-editor"
 							data-id="bcf7e3c" data-element_type="widget"
 							data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
 							data-widget_type="text-editor.default">
 							<p>With years of proven success in the logistics and transportation industry, we&#8217;ve
 								built a reputation for reliability, innovation, and excellence. Our journey is marked by
 								continuous growth, global expansion,</p>
-						</div>
+						</div> -->
 						<div class="elementor-element elementor-element-ade00f5 e-con-full e-flex e-con e-child"
 							data-id="ade00f5" data-element_type="container">
 							<div class="elementor-element elementor-element-e0a1619 e-con-full e-flex elementor-invisible e-con e-child"
@@ -991,7 +960,7 @@
 									<div class="ekit-wid-con"> <!-- link opening -->
 										<!-- end link opening -->
 
-										<div
+										<!-- <div
 											class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
 											<div class="elementskit-box-header elementor-animation-">
 												<div class="elementskit-info-box-icon  text-center">
@@ -1015,7 +984,7 @@
 											</div>
 
 
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</div>
@@ -1029,7 +998,7 @@
 									<div class="ekit-wid-con"> <!-- link opening -->
 										<!-- end link opening -->
 
-										<div
+										<!-- <div
 											class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
 											<div class="elementskit-box-header elementor-animation-">
 												<div class="elementskit-info-box-icon  text-center">
@@ -1044,10 +1013,9 @@
 											<div class="box-body">
 												<h3 class="elementskit-info-box-title">
 													10,000+ Successful Deliveries Monthly </h3>
-											</div>
+											</div>	
 
-
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</div>
@@ -2238,7 +2206,7 @@
 												<div class="box-body">
 													<h3 class="elementskit-info-box-title">
 														Call / E-mail </h3>
-													<p><a href="tel:+985-258-263"> +985-258-263</a></br><a
+													<p><a href="tel:+91 22 27817171/72"> +91 22 27817171/72</a></br><a
 															href="mailto:info@domainname.com">info@domainname.com</a>
 													</p>
 												</div>
@@ -2259,7 +2227,7 @@
 												<div class="box-body">
 													<h3 class="elementskit-info-box-title">
 														Visit Our Office </h3>
-													<p>1234 Logistics Avenue, Suite 567, Transport City, USA</p>
+													<p>Oceanic Star Shipping Pvt. Ltd., Office no 602-603, Realtech Park, Sector 30A, Vashi, Navi Mumbai-400703, Maharashtra Transport City, USA</p>
 												</div>
 
 
